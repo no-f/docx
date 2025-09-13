@@ -1,0 +1,50 @@
+{
+  "title": {
+    "message": "ZYYQ",
+    "description": "The title in the navbar"
+  },
+  "item.label.产品概述": {
+    "message": "Product Overview",
+    "description": "Navbar item with label 产品概述"
+  },
+  "item.label.产品介绍": {
+    "message": "Product Introduction",
+    "description": "Navbar item with label 产品介绍"
+  },
+  "item.label.控制台": {
+    "message": "Console",
+    "description": "Navbar item with label 控制台"
+  },
+  "item.label.设备开发": {
+    "message": "Device Development",
+    "description": "Navbar item with label 设备开发"
+  },
+  "item.label.App开发": {
+    "message": "App Development",
+    "description": "Navbar item with label App开发"
+  },
+  "item.label.PC开发": {
+    "message": "PC Development",
+    "description": "Navbar item with label PC开发"
+  },
+  "item.label.Web开发": {
+    "message": "Web Development",
+    "description": "Navbar item with label Web开发"
+  },
+  "item.label.云端API": {
+    "message": "Cloud API",
+    "description": "Navbar item with label 云端API"
+  },
+  "item.label.开发参考": {
+    "message": "Development Reference",
+    "description": "Navbar item with label 开发参考"
+  },
+  "item.label.帮助中心": {
+    "message": "Help Center",
+    "description": "Navbar item with label 帮助中心"
+  },
+  "item.label.官网": {
+    "message": "Official Website",
+    "description": "Navbar item with label 官网"
+  }
+}

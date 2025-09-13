@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "ZYYQ Documentation Center",
+    "description": "The title of the website"
+  },
+  "tagline": {
+    "message": "Providing product documentation, API references, and code examples to help you develop quickly",
+    "description": "The tagline of the website"
+  }
+}

@@ -38,7 +38,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    locales: ['zh-Hans', 'en'],
   },
 
   presets: [
@@ -132,6 +132,15 @@ const config = {
             docId: 'help/account-development-issues',
             position: 'left',
             label: '帮助中心',
+          },
+          {
+            href: 'https://www.ziyyun.com/',
+            label: '官网',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
         ],
       },
