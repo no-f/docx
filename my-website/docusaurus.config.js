@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '智宇云擎文档中心',
-  tagline: '欢迎来到开发者文档中心！这里有各种资源，包括易懂的文档、实用的示例代码以及简明扼要的教程等。',
+  tagline: '提供产品文档、API 参考和代码示例，助您快速开发',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -93,13 +93,13 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'device-development/device-sdk',
+            docId: 'device/device-sdk',
             position: 'left',
             label: '设备开发',
           },
           {
             type: 'doc',
-            docId: 'app-development/android-app-sdk',
+            docId: 'app/android-app-sdk',
             position: 'left',
             label: 'App开发',
           },

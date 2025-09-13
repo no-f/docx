@@ -49,7 +49,7 @@ const sidebars = {
       label: '设备开发',
       collapsed: true,
       items: [
-        'device-development/device-sdk',
+        'device/device-sdk',
       ],
     },
     {
@@ -57,8 +57,8 @@ const sidebars = {
       label: 'App开发',
       collapsed: true,
       items: [
-        'app-development/android-app-sdk',
-        'app-development/ios-app-sdk',
+        'app/android-app-sdk',
+        'app/ios-app-sdk',
       ],
     },
     {
