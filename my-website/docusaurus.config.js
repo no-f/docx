@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '智宇云擎文档中心',
+  tagline: '欢迎来到开发者文档中心！这里有各种资源，包括易懂的文档、实用的示例代码以及简明扼要的教程等。',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -37,8 +37,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -53,21 +53,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -81,70 +67,78 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'ZYYQ',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'ZYYQ Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type: 'doc',
+            docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '产品概述',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            type: 'doc',
+            docId: 'product-introduction/index',
+            position: 'left',
+            label: '产品介绍',
+          },
+          {
+            type: 'doc',
+            docId: 'console/index',
+            position: 'left',
+            label: '控制台',
+          },
+          {
+            type: 'doc',
+            docId: 'device-development/device-sdk',
+            position: 'left',
+            label: '设备开发',
+          },
+          {
+            type: 'doc',
+            docId: 'app-development/android-app-sdk',
+            position: 'left',
+            label: 'App开发',
+          },
+          {
+            type: 'doc',
+            docId: 'pc-development/windows-pc-sdk',
+            position: 'left',
+            label: 'PC开发',
+          },
+          {
+            type: 'doc',
+            docId: 'web-development/web-sdk',
+            position: 'left',
+            label: 'Web开发',
+          },
+          {
+            type: 'doc',
+            docId: 'cloud-api/api-overview',
+            position: 'left',
+            label: '云端API',
+          },
+          {
+            type: 'doc',
+            docId: 'development-reference/index',
+            position: 'left',
+            label: '开发参考',
+          },
+          {
+            type: 'doc',
+            docId: 'help-center/account-development-issues',
+            position: 'left',
+            label: '帮助中心',
           },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        links: [],
+        copyright: `Copyright © ${new Date().getFullYear()} 杭州智宇云擎科技有限公司. 浙ICP备2025158076号-1`,
       },
       prism: {
         theme: prismThemes.github,
