@@ -15,15 +15,15 @@ const sidebars = {
       label: '产品介绍',
       link: {
         type: 'doc',
-        id: 'product-introduction/index'
+        id: 'product/index'
       },
       collapsed: true,
       items: [
-            'product-introduction/what-is-zyyq',
-            'product-introduction/features',
-        'product-introduction/advantages',
-        'product-introduction/concepts',
-        'product-introduction/architecture'
+            'product/what-is-zyyq',
+            'product/features',
+        'product/advantages',
+        'product/concepts',
+        'product/architecture'
       ]
     },
     {
@@ -66,7 +66,7 @@ const sidebars = {
       label: 'PC开发',
       collapsed: true,
       items: [
-        'pc-development/windows-pc-sdk',
+        'pc/windows-pc-sdk',
       ],
     },
     {
@@ -74,7 +74,7 @@ const sidebars = {
       label: 'Web开发',
       collapsed: true,
       items: [
-        'web-development/web-sdk',
+        'web/web-sdk',
       ],
     },
     {
@@ -82,10 +82,10 @@ const sidebars = {
       label: '云端API',
       collapsed: true,
       items: [
-        'cloud-api/api-overview',
-        'cloud-api/error-code-dictionary',
-        'cloud-api/signature-mechanism',
-        'cloud-api/api-interface',
+        'api/api-overview',
+        'api/error-code-dictionary',
+        'api/signature-mechanism',
+        'api/api-interface',
       ],
     },
     {
@@ -93,7 +93,7 @@ const sidebars = {
       label: '开发参考',
       collapsed: true,
       items: [
-        'development-reference/index',
+        'development/index',
       ],
     },
     {
@@ -101,7 +101,7 @@ const sidebars = {
       label: '帮助中心',
       collapsed: true,
       items: [
-        'help-center/account-development-issues',
+        'help/account-development-issues',
       ],
     },
   ],
