@@ -1,0 +1,34 @@
+{
+  "homepage.title": {
+    "message": "ZYYQ Documentation Center",
+    "description": "The homepage title"
+  },
+  "homepage.tagline": {
+    "message": "Providing product documentation, API references, and code examples to help you develop quickly",
+    "description": "The homepage tagline"
+  },
+  "homepage.features.title1": {
+    "message": "Product Features",
+    "description": "Title of first feature"
+  },
+  "homepage.features.description1": {
+    "message": "Comprehensive functional coverage, meeting business needs in different scenarios.",
+    "description": "Description of first feature"
+  },
+  "homepage.features.title2": {
+    "message": "Core Advantages",
+    "description": "Title of second feature"
+  },
+  "homepage.features.description2": {
+    "message": "Stable and reliable, secure and trustworthy, flexible and scalable, providing comprehensive business protection.",
+    "description": "Description of second feature"
+  },
+  "homepage.features.title3": {
+    "message": "Quick Start",
+    "description": "Title of third feature"
+  },
+  "homepage.features.description3": {
+    "message": "Provide detailed getting started guides and sample code to help you get started quickly.",
+    "description": "Description of third feature"
+  }
+}
