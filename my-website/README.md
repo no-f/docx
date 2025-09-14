@@ -18,3 +18,7 @@ npm run build
 ## 部署
 
 该网站通过GitHub Actions自动部署到GitHub Pages。
+
+## 更新时间
+
+最后更新：2025年9月14日
